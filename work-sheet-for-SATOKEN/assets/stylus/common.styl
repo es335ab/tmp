@@ -1,0 +1,79 @@
+/*
+ * common
+ * common：全ページ共通のcss。
+ */
+
+@charset "UTF-8";
+
+/*
+@import "nib"
+
+@import "var/_settings";
+@import "var/_sprite";
+@import "base/_all";
+@import "functions/_all";
+@import "layout/_all";
+@import "module/_all";
+
+*/
+
+/* layouts */
+.wrapper
+  margin: 0 auto
+  max-width: 800px
+
+.inner
+  padding: 10px
+
+.header-title
+  font-size: 20px
+  margin: 0
+  text-align: center
+
+.vote-status-area
+  padding: 10px
+  margin: 10px 0
+  background-color: #fafafa
+  .text
+    margin-bottom: 5px
+  .vote-status-text
+    text-align: center
+    font-size: 22px
+    .size-m
+      font-size: 12px
+      font-weight: normal
+    .size-l
+      font-size: 22px
+      font-weight: normal
+    strong
+      font-size: 40px
+
+.footer
+  text-align: right
+  .inner
+    padding-top: 0
+
+/* modules */
+
+// media
+.media
+  padding-bottom: 10px
+  margin-bottom: 10px
+  border-bottom: solid 1px #aaa
+  &:last-child
+    margin-bottom: 0
+
+.media-object
+  margin-bottom: 10px
+  border: solid 1px #ccc
+  width: 160px
+  &:last-child
+    margin-bottom: 0
+
+.media-author
+  text-align: right
+
+/* responsive-smart */
+@media screen and (max-width: 568px)
+  .media-object
+    width: 100px

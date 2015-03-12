@@ -1,0 +1,41 @@
+.spr {
+    font-size: 10px;
+}
+
+.spr:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../img/svgSprite.svg");
+    background-repeat: no-repeat;
+    background-size: 4.8em 19.2em;
+}
+
+.no-svg .spr:before {
+    background-image: url("../img/svgSprite.png");
+}
+
+.spr.spr-home:before {
+    background-position: -0.8em -0.8em;
+    width: 3.2em;
+    height: 3.2em;
+}
+
+.spr.spr-office:before {
+    background-position: -0.8em -5.6em;
+    width: 3.2em;
+    height: 3.2em;
+}
+
+.spr.spr-pen:before {
+    background-position: -0.8em -10.4em;
+    width: 3.2em;
+    height: 3.2em;
+}
+
+.spr.spr-pencil:before {
+    background-position: -0.8em -15.200000000000001em;
+    width: 3.2em;
+    height: 3.2em;
+}
+
